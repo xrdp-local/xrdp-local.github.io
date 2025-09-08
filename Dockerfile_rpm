@@ -1,0 +1,4 @@
+FROM fedora:42
+
+RUN dnf install -y gnupg rpm-sign createrepo
+RUN mkdir -m 700 -p /root/.gnupg && touch /root/.gnupg/common.conf

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>xrdp_local Repositories</title>
+	</head>
+	<body>
+		<p>
+			See the instructions at
+				<a href="https://github.com/shaulk/xrdp_local_session#installing-using-your-distributions-package-manager">
+					xrdp_local_session
+				</a>
+			for more information.
+		</p>
+		<h1>Repository configuration files</h1>
+		<ul>
+			{% for distro_info in distros %}
+			<li><a href="{{ distro_info.source_file }}">{{ distro_info.name }} {{ distro_info.version }} {{ distro_info.suffix }}</a></li>
+			{% endfor %}
+		</ul>
+		<p>
+			For APT-based distributions, put the file at
+			<code>/etc/apt/sources.list.d/xrdp-local.list</code> and run
+			<code>apt update</code>.
+		</p>
+		<p>
+			For RPM-based distributions, put the file at
+			<code>/etc/yum.repos.d/xrdp-local.repo</code>.
+			Also grab the
+			<a href="GPG-KEY-xrdp-local">GPG key</a>
+			and put it at <code>/etc/pki/rpm-gpg/GPG-KEY-xrdp-local</code>.
+		</p>
+	</body>
+</html>
