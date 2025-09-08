@@ -1,0 +1,155 @@
+Package: xorgxrdp-dbgsym
+Architecture: amd64
+Version: 1:0.10.4-1dmabuf
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xorgxrdp
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 326
+Depends: xorgxrdp (= 1:0.10.4-1dmabuf)
+Filename: pool/trixie/xorgxrdp-dbgsym_0.10.4-1dmabuf_amd64.deb
+Size: 275848
+MD5sum: b22b6e6c3f822f7f723f85122e674d21
+SHA1: 78dcdf0d86bafc8dc7acad56e0cdfe35022a8303
+SHA256: 27dc2e0b1c0f7ee11de4e05bda90685888081ae839d11abaa854b0730dc0b62f
+SHA512: 04d8716e181006ff43eda97edb110378cebe424549acb5754308c9309317eec4ab26d7e40516a053b42dc8e92463544354b528e2f73ace267101861a542ef1b3
+Description: debug symbols for xorgxrdp
+Build-Ids: 8971eacdbfd81e08b31c830fb9c2f18889f6ba4f 8c00a3d56affa2761ea9d9e6dcb21e75eabaa3d6 9ce70c246a01306784b7305b8e4e1bd035f90d23 f0f4024c57045532cefb3ae769b7d754a7d38aa5
+
+Package: xorgxrdp
+Architecture: amd64
+Version: 1:0.10.4-1dmabuf
+Priority: optional
+Section: net
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 228
+Provides: xorg-driver-input, xorg-driver-video
+Depends: libc6 (>= 2.34), libepoxy0 (>= 1.0), xorg-input-abi-24, xorg-video-abi-25, xserver-xorg-core (>= 2:21.1.1)
+Recommends: xorg
+Filename: pool/trixie/xorgxrdp_0.10.4-1dmabuf_amd64.deb
+Size: 68672
+MD5sum: e60f415ec18672d68c804015acbcc0c2
+SHA1: 50f633ba8775d811afdce854343bc98e58906d5c
+SHA256: 345af30b9dd1b9d7287ea4683bd203283e211069acf66ebcdf8f1909b3f17a7f
+SHA512: 7448e2d08faa1e8838398e320c0d73510e2e6916fb444cf08709dcfc026ecf2534b6a9007cc592e2ac3e7d2900d11cc1cc900ba8352a905b2ed0d5c091fed79c
+Homepage: http://xrdp.sourceforge.net
+Description: Remote Desktop Protocol (RDP) modules for X.org
+ xorgxrdp is a set of drivers (screen device, keyboard, and mouse)
+ for X.org enabling use through an RDP session with xrdp. For full
+ operation, most standard X11 fonts and tools need to be installed;
+ the Recommended xorg metapackage is a superset of what’s actually
+ needed but will do.
+
+Package: xrdp-dbgsym
+Architecture: amd64
+Version: 0.10.4.1-1dmabuf
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xrdp
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 1477
+Depends: xrdp (= 0.10.4.1-1dmabuf)
+Filename: pool/trixie/xrdp-dbgsym_0.10.4.1-1dmabuf_amd64.deb
+Size: 1122856
+MD5sum: 7f96fb0897e9cde2d86d5ed3e85c87cd
+SHA1: bc7be1df345b83e05ea4d3eb2a95b84cea81df4c
+SHA256: d0f71c9673c006cdf9447d0a20a5950868d6e1af3cc923b372e04cdbd3585319
+SHA512: 3b784131fcb3d5ebd3204cd46087be4743fdb770bf683ac83c38a9eeef813d38a59c430025ce8112e2c63d4aa8100b381a741c5e9e7d17d3dbd85ec74b676ebe
+Description: debug symbols for xrdp
+Build-Ids: 20180a81501d85e3f7a395af96b2ea31825bac02 2276133d8b23c1d356cfc0ce2d0e03b080f8687f 42da154e4c75b508762c924e271ffd192e5aa035 546f6f11924dbb30fbc11e6ecef96beb1eb94e8a 554f8bb1b5c5db47b5fad8aa38ff145705d323e6 5c5f7f0a2616e44f0a36c21980f67aa47d9bb2ac 67424fd38dbf46b2f1c5aa4d28ebcb70025ff014 6e01f16247c74f12174ed1e2039cb0dd956a928c 76a7c096613f2e9249e7f071cdc88a44389ebb8c 84911b5287067fb33936a295ee53986f428485ff 9e8c33c4ee9ee6cd2d3e182fed2a6dedbcfc2755 a22361ce9a53e498856206248c416a2371c55bef a37b665a4575ed995c12b1d059b7b3bbd1803aba a9a1d0c82c8877cffe4e22e78031b184aaa1dc4b a9d27ab2023e41fc92c52b455f6d33b3f978c942 b453731dc961dae91216a57727d098c06001d96f b772ba1e099f7367a292dbd38a5707029fd126e2 d60ae050526185593553f07c78d679b4cef65494 e16c6ee31546a6c009c5951e0856025ef8b79c26 f71ba297ef091e4c62088f21d9c3aa8c29027bf5 fb94681f7e08de623f5f4aa00ca8da7baf20b508
+
+Package: xrdp-local-dbgsym
+Architecture: amd64
+Version: 0.10.4.1-1dmabuf
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xrdp-local
+Maintainer: Shaul Kremer <shaulk@users.noreply.github.com>
+Installed-Size: 1422
+Depends: xrdp-local (= 0.10.4.1-1dmabuf)
+Filename: pool/trixie/xrdp-local-dbgsym_0.10.4.1-1dmabuf_amd64.deb
+Size: 1374344
+MD5sum: e418527be0f8c8cfa08a120d9bf98646
+SHA1: a78577a1f62a452f48ab53953dfe7aa34e577457
+SHA256: 1614ebbffe9104c3c60e15cbb49be94f775ed1f329bdff5de58c2d7916e37e45
+SHA512: 46997d43c5ced939500b7308b12b78362e962112b079598ba557fe002b7d23fb104e2cc1858220d4ac06b011caa8a16ffded6e1c78690c74a85f8d70bc195b66
+Description: debug symbols for xrdp-local
+Build-Ids: dcdaa022b4dde8823f2b64b1ca61d862b80698bd
+
+Package: xrdp-local-session
+Architecture: all
+Version: 0.1-1
+Priority: optional
+Section: x11
+Maintainer: Shaul Kremer <shaulk@users.noreply.github.com>
+Installed-Size: 54
+Depends: python3-dbus, python3-psutil, python3-pydantic, python3-typer, python3:any, sudo, xrdp-local (>= 0.10.4)
+Filename: pool/trixie/xrdp-local-session_0.1-1_all.deb
+Size: 13284
+MD5sum: d63cc95cb0a84cc86ac75e85bcc99366
+SHA1: 70a1d2437a3049ce017a23eb793f6d1d61632079
+SHA256: c72b818b123537b49d62f2ad47ecf462a8fbfd10d96dcd917944c667b9201b3d
+SHA512: cb1740624364e01628ac5ac33c8c8392f643a7755f779a66e46c543d13328a3377e184a7b8aac8a783e5e02381c497d7e225558666606a83f542f3587a45a90e
+Homepage: https://github.com/shaulk/xrdp_local_session
+Description: Local client for xrdp providing seamless switching between local and RDP connections - session manager
+ xrdp_local_session is glue code that allows xrdp_local to be used seamlessly in a modern Linux desktop.
+ xrdp_local allows you to connect to local xrdp sessions without using RDP,
+ in effect letting you switch your xrdp session between using the local hardware
+ normally and connecting remotely using RDP.
+
+Package: xrdp-local
+Architecture: amd64
+Version: 0.10.4.1-1dmabuf
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Maintainer: Shaul Kremer <shaulk@users.noreply.github.com>
+Installed-Size: 198
+Depends: libc6 (>= 2.38), libegl1, libgcc-s1 (>= 3.0), libopengl0, libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.2.0), libstdc++6 (>= 13.1), libx11-6, xrdp (= 0.10.4.1-1dmabuf), qt6-qpa-plugins, xorgxrdp (>= 0.10.4)
+Filename: pool/trixie/xrdp-local_0.10.4.1-1dmabuf_amd64.deb
+Size: 73420
+MD5sum: c23db7f795d2d70fb639a058544940a3
+SHA1: b7bc6d90f1dedc6c35972e4f800c6ef729f8e17c
+SHA256: eb3391a1df1e526643605b192dc847a3edde01e9ecd31f4c6c648fd69aa52bcc
+SHA512: 7f4a5c64403e85c0bdbd239a8ddb3b5f8cecd32fb558652ad13f958c1128b60ef37cb70b8a400be558b07b1cb6fea9b1b91e9f988852dfbb339ec52dd973b50f
+Homepage: https://github.com/shaulk/xrdp_local
+Description: Local client for xrdp providing seamless switching between local and RDP connections - core
+ xrdp_local allows you to connect to local xrdp sessions without using RDP,
+ in effect letting you switch your xrdp session between using the local hardware
+ normally and connecting remotely using RDP.
+
+Package: xrdp
+Architecture: amd64
+Version: 0.10.4.1-1dmabuf
+Priority: optional
+Section: net
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Installed-Size: 4633
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: adduser, sysvinit-utils (>= 3.06-4), ssl-cert, libc6 (>= 2.38), libfuse3-4 (>= 3.17.2), libjpeg62-turbo (>= 1.3.1), libopus0 (>= 1.1), libpam0g (>= 0.99.7.1), libssl3t64 (>= 3.0.0), libx11-6, libxfixes3, libxrandr2 (>= 2:1.2.0)
+Recommends: fuse, xorgxrdp
+Suggests: guacamole
+Filename: pool/trixie/xrdp_0.10.4.1-1dmabuf_amd64.deb
+Size: 638988
+MD5sum: 038d12e13e3ac884e7d103d987185ede
+SHA1: b18a27c424e2f7d1500d345afaff288bcf43d7c3
+SHA256: 1b1464c70df81bc678decba512a774016acb7767376527a9443213531ed3dc50
+SHA512: 1ee88da994b8e4917a650394d686839146f1bf2fad9d7fe673bad86f300e6f7c73ea000e81882282415d0700156dd5f565c90fa5701e4ba7ec02a9df4a1a0dd3
+Homepage: https://www.xrdp.org/
+Description: Remote Desktop Protocol (RDP) server
+ xrdp offers a graphical login to a remote client using
+ RDP (the Remote Desktop Protocol). xrdp can connect to
+ a locally created X.org session with the xorgxrdp drivers,
+ to a VNC X11 server, and forward to another RDP server.
+ .
+ xrdp accepts connections from freerdp, rdesktop, and the
+ built-in terminal server / remote desktop clients of
+ Microsoft Windows operating systems.
+ In the xorgxrdp (which replaces X11RDP) and VNC modes,
+ it provides a fully functional Linux terminal server,
+ offering an X-Window desktop to the user. In the RDP
+ or VNC forwarding mode, any sort of desktop can be used.
+

@@ -1,0 +1,9 @@
+# Put this file at /etc/yum.repos.d/xrdp-local.repo
+# and the GPG key at /etc/pki/rpm-gpg/GPG-KEY-xrdp-local
+
+[xrdp-local]
+name=xrdp-local
+baseurl=https://xrdp-local.github.io/repos/rpm/fedora/42/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=/etc/pki/rpm-gpg/GPG-KEY-xrdp-local

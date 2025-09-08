@@ -1,0 +1,38 @@
+Architectures: amd64
+Codename: noble
+Components: main
+Date: Mon, 08 Sep 2025 18:31:17 +0000
+Label: Ubuntu
+Suite: noble
+MD5Sum:
+ 9d35e4097c901e20438639397553267e              119 Release
+ ba9ef102d26aea22d0e446a5e1b610ee            11367 main/Contents-amd64
+ 85d212548e5e2340002e0453b4e5a51e             2102 main/Contents-amd64.gz
+ 6ce1403f132eeac8d1c22bae4a5fb5ed             2036 main/Contents-amd64.xz
+ 8a6a9768eb5bfb4de4a5750dca35d212             8218 main/binary-amd64/Packages
+ 3b91e44eea6f242863a52b5178c162e8             3631 main/binary-amd64/Packages.gz
+ 7a464fb84ea35fbf819c99f1347e9d29             3516 main/binary-amd64/Packages.xz
+SHA1:
+ 0baf60f908dddbb37d2854cc113bd9e2ae32a7bb              119 Release
+ 46ed548742d8efdcd2a70e6f7f8f6783cf0e4f30            11367 main/Contents-amd64
+ cbe903316f91838585a6880e9357b69bab90e5d2             2102 main/Contents-amd64.gz
+ f2d0e180658cd963158f36607623dd70e7103e03             2036 main/Contents-amd64.xz
+ d9d79a2c4d3c6bec0f6f251ec15c1a100a7579cc             8218 main/binary-amd64/Packages
+ 21211ffd0703f5352c4a622e3b3b5dda9eacc3ae             3631 main/binary-amd64/Packages.gz
+ b3c8f5552d67f8d6beb2ce93308054180d499b1d             3516 main/binary-amd64/Packages.xz
+SHA256:
+ 788efa4d920052b471ffbc87077ff8c1398073040dd8ec636febd34aaec6f336              119 Release
+ fc3870fca1fd51c89629a7e4eaae14a8c74bd7da9ad6ffe02b9ff688eb82daf0            11367 main/Contents-amd64
+ a1dedd6036a19beb08dfb7968722a588bdb8aad103b1f64713fc02a8b84671b5             2102 main/Contents-amd64.gz
+ 13666d0b4f2a3677b173b24b784740126cc861d5c9fb6491f5c32e4c4d148d80             2036 main/Contents-amd64.xz
+ 970f9b0badaf63ae39e94ee60d39508dd6945bee7ff6d433f5685b60f2682d2b             8218 main/binary-amd64/Packages
+ e2e580df26bd8895866d9874d237f0b15760e375314307dde2b2e47ccee85997             3631 main/binary-amd64/Packages.gz
+ 0f89f000d9eca3379e06983a72ef579fe8df8dc8a3657bb827663843c17b90d4             3516 main/binary-amd64/Packages.xz
+SHA512:
+ 879c1423626201139f6f7f2ae1c48a342da589741be0196d0dd67cccca9d41815163262d834f960c2119a7f3b766e7eeb176c9b49b1b0762cfde990cd4ec95c3              119 Release
+ 50a84f2a8c40cf50c965958ce35573e00f050234732c083e8e9992d66278985ecff632902cdfa913b8d85215361950f261ab3b9ea1797cfd41df47a772464353            11367 main/Contents-amd64
+ 5cfe08941f814449973bd100d2167974c98b857d321423f05c7ad5bf535468f230f15c542e533c5bb7696c4188ce93531fa71826db9c6fc18ebacfeb3fd047e6             2102 main/Contents-amd64.gz
+ a1331b93ff569602efbd0de0f7f0d596ab2e5b041acdfd51118eb77471d260ae201bf857f7022f7ff0ee481eb727bc16ca3efd7c4924f2f42cbb4af8e5712bc9             2036 main/Contents-amd64.xz
+ 295d3f1023fb3b45c0fddcebba43b3eb4b6fd02b7f082fb0136106e3ed3ba5df9aed29a6130bb1da78d12fd4ba6902fdadef20d64649bf5c6baf5ce3cd9808ef             8218 main/binary-amd64/Packages
+ b5ecd76af14bc3cd5d9fd36afdc05fd1f5184473c38bcaa66fa00ce77fb92576652a67e61cc1f88941fbed433eb2a97ef289f10463f9a1c11052a3993669bb51             3631 main/binary-amd64/Packages.gz
+ 9bdda914c7f1f2320dd4a0ed6b0af2294a82be035bbb1efccddedfcfe224cb7709251ae1689df861427e16d8f428472a831bd334e981417eb0faa488f025206e             3516 main/binary-amd64/Packages.xz

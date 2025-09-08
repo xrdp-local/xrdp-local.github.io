@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64
+Codename: plucky
+Components: main
+Date: Mon, 08 Sep 2025 18:31:18 +0000
+Label: Ubuntu
+Suite: plucky
+MD5Sum:
+ 7701309914d58146fe7bf1425995fdfd              121 Release
+ ad38883ca7eafeb91423a1033b02d0d8            11367 main/Contents-amd64
+ c5f3891e428cfbd8a3cba20de1fd3e3a             2099 main/Contents-amd64.gz
+ 7e354d872e9c4dda487d8c59cb6a2871             2036 main/Contents-amd64.xz
+ 82da30a5c0566749ba40485fc3eb626f             8219 main/binary-amd64/Packages
+ e852dd79bc014482e3c6f355bdfbe9ab             3636 main/binary-amd64/Packages.gz
+ bfe48228ef6d9125e03ba9b837bd486e             3520 main/binary-amd64/Packages.xz
+SHA1:
+ f88f7b8ab22f788b081ef263c0376af040588d50              121 Release
+ 6a4ced2d7311c61b10b2b7a7474c389a986e9348            11367 main/Contents-amd64
+ e835d1cf377d1d491807c34856e304cfee4b16ab             2099 main/Contents-amd64.gz
+ 21e423f99f9bb5e149f9592ce7c692719927d11a             2036 main/Contents-amd64.xz
+ 27b37d695ee1dc846bcab9f61a568df6619dc17c             8219 main/binary-amd64/Packages
+ f2102e3225d091c0d7e016841c89a662a3ebfed3             3636 main/binary-amd64/Packages.gz
+ a3551102b11fa3c4a3f8f77c191462af814b7308             3520 main/binary-amd64/Packages.xz
+SHA256:
+ acd96801c3122bc069a55ec2ffb4c9c07206c717a063a97472652ff157672cc7              121 Release
+ 5e81bee0c2f66b45dce4f6cdaece461a6e3a45d078662f4adce773d1776499f8            11367 main/Contents-amd64
+ 24c007c1be2f9e8f7559cba04cce4d7768615c856b12d49ebe66e81b7ea4a843             2099 main/Contents-amd64.gz
+ d60f3ce35a06eadd9b6ccdc0a7fa8c208c6b9aed79f0df71447fbc4b3cfb5092             2036 main/Contents-amd64.xz
+ 5093eae5d126154616b10603a379ce5681bbab8a6f6a92d67938fe1a969fe9ad             8219 main/binary-amd64/Packages
+ 93023d0bd93fa6582b9bca19fe44a5d880524d51f830a93da2eb80458bbb16da             3636 main/binary-amd64/Packages.gz
+ e8abb1dc267693df8a9e0f76e4da5d52eee97c9151edbeba3541d7d10729f4ec             3520 main/binary-amd64/Packages.xz
+SHA512:
+ f29b4b227138801d6bf1fe1c355bc407ebb2ab121834076e5b5eabde694dd95d3c9cf751f79d59cd248c6b8f2720a70a4a4041a3f241bbe069e94fafed488e48              121 Release
+ e8f038e11315561536b5c42979527ac005472a8c2ab5bbb96f357311167e373e8d36042ab35d0798279dcaf7e8a646ebae707da87dbc914d17e286d81771541b            11367 main/Contents-amd64
+ 234b41baee3d9a336c919cc88e8e69ea16c45195a399e436c8c15c5050def904c855ea3b6b7fb12d06b164d1f1cc9b19659ae50797eb111b39ba846c4b31f8a4             2099 main/Contents-amd64.gz
+ 007ef5099113682310ffc1af605669e09b6a500fa73bb5f2f5d670b1dda53e6fe6fb2cbc40ba52bd231d51a51761699dd4ce8df8babc285721900e46ccd3aa65             2036 main/Contents-amd64.xz
+ 73c6073f53ecef5762e737a9d7318b05d0dee64dc4fb0cfc81ab6497e6c3707ccc1a0f43d38d273a13bedbe3ebbb884cb6fea33afb376dfa8640ff566b073920             8219 main/binary-amd64/Packages
+ d9eb7ccf04522290f844132a18cb8b04213d7f5ddeae1854dff835e4d092c4bbe3a6ccd742e06955e11f6d51cbb5acdbd493e999f7ffe0a595af703ec1e77ebd             3636 main/binary-amd64/Packages.gz
+ 9666a8f830ec49d1eb06c983489d6529c7b7bace18474dcd1dfff421245d2f0bd6e3cbdb500da9976ed057dabc7917632f7131403385a102c7cde8c42f3c4e9b             3520 main/binary-amd64/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQT1yjkp2XSWfiFWdKkVmidFE4UkegUCaL8g9gAKCRAVmidFE4Uk
+elY5AQDPphfBiOy0ipOD1BC8dXGB7lUWmZ8MqAMnTaoBAkIwfwD/atDa+t/epxEB
+v1saKo2/djkDyGKEwmjZOGaiIW70uQw=
+=N/86
+-----END PGP SIGNATURE-----
